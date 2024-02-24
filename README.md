@@ -1,14 +1,20 @@
-# Turborepo Tailwind CSS starter
+# Turborepo shadcn/ui and Tailwind CSS starter
 
-This is an official starter Turborepo.
+This is turborepo starter with shadcn/ui and Tailwind CSS pre-configured.
+
+
+> [!NOTE]
+> This example uses `pnpm` as package manager.
+
 
 ## Using this example
 
-Run the following command:
+Clone the repository:
 
 ```sh
-npx create-turbo@latest -e with-tailwind
+git clone https://github.com/htsh-tsyk/turbo-shadcn.git
 ```
+
 
 ## What's inside?
 
@@ -16,9 +22,8 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `web`: another [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `ui`: a stub React component library with [Tailwind CSS](https://tailwindcss.com/) shared by both `web` and `docs` applications
+- `web`: another [Next.js](https://nextjs.org/) app with [shadcn/ui](https://ui.shadcn.com/) and [Tailwind CSS](https://tailwindcss.com/) 
+- `@repo/ui`: a stub React component library with [shadcn/ui](https://ui.shadcn.com/) and [Tailwind CSS](https://tailwindcss.com/) shared by a `web`  application
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
