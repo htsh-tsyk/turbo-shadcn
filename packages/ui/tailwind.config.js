@@ -1,18 +1,11 @@
-import type { Config } from "tailwindcss";
-import animate from "tailwindcss-animate";
-import sharedConfig from "@repo/tailwind-config";
-
-const config: Pick<
-  Config,
-  "prefix" | "presets" | "content" | "darkMode" | "theme" | "plugins"
-> = {
-  presets: [sharedConfig],
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   darkMode: ["class"],
   content: [
-    "./pages/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
   ],
   prefix: "",
   theme: {
@@ -80,7 +73,5 @@ const config: Pick<
       },
     },
   },
-  plugins: [animate],
-};
-
-export default config;
+  plugins: [require("tailwindcss-animate")],
+}
