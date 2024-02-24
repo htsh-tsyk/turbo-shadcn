@@ -4,8 +4,8 @@
     "baseUrl": ".",
     "paths": {
       "@repo/ui": ["./components/ui"],
-      "@repo/ui/*": ["./components/ui/*"],
-    },
+      "@repo/ui/*": ["./components/ui/*"]
+    }
   },
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]

@@ -8,7 +8,7 @@
     "css": "styles/globals.css",
     "baseColor": "slate",
     "cssVariables": true,
-    "prefix": ""
+    "prefix": "ui-"
   },
   "aliases": {
     "components": "@repo/ui/components",

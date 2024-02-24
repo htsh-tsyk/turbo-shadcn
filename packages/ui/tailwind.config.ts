@@ -14,7 +14,7 @@ const config: Pick<
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
   ],
-  prefix: "",
+  prefix: "ui-",
   theme: {
     container: {
       center: true,
